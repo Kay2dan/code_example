@@ -3,7 +3,7 @@ import { StPrismaTeamType } from "app/types";
 
 /*******************************
  *******************************
- *
+ * Recoil state definition
  *******************************
  *******************************/
 export const teamState = atom({
@@ -13,7 +13,10 @@ export const teamState = atom({
 
 /*******************************
  *******************************
- *
+ * Recoil has build in selector feature
+ * (like redux selectors) so we can
+ * only subscribe to bits of data within
+ * the team-state
  *******************************
  *******************************/
 export const teamDateSelector = selector({
@@ -29,7 +32,7 @@ export const teamDateSelector = selector({
 
 /*******************************
  *******************************
- *
+ * Another example of selector
  *******************************
  *******************************/
 export const teamStatusSelector = selector({
