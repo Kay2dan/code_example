@@ -46,6 +46,8 @@ const choreDataToGet = {
 
 /*******************************
  * *****************************
+ * AimHigh.life uses Prisma ORM to interface
+ * with the db. This file contains a query to retrieve data.
  * Main query func to get the team goal boards
  * *****************************
  *******************************/
